@@ -10,11 +10,15 @@ public class ControlScript : MonoBehaviour {
 	//The Animator is what listens to our instructions and tells the mesh which animation to use.
 	private Animator myAnimator;
 
+	private CameraOrbit cam;
+
 	// The start method is called when the script is initalized, before other stuff in the scripts start happening.
 	void Start () {
 		//We have a reference called myAnimator but we need to fill that reference with an Animator component.
 		//We can do that by 'getting' the animator that is on the same game object this script is appleid to.
 		myAnimator = GetComponent<Animator>();
+
+		cam = GameObject.Find("Camera").GetComponent<CameraOrbit>();
 	
 	}
 	

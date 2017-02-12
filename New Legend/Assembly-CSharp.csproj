@@ -50,6 +50,8 @@
      <Compile Include="Assets\FGC\Scripts\FGC_addItem.cs" />
      <Compile Include="Assets\FGC\Volund-Morph3D\UniqueShadow\UniqueShadow.cs" />
      <Compile Include="Assets\FGC\Volund-Morph3D\UniqueShadow\UniqueShadowSun.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraOrbit.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraRotation.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
